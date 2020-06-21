@@ -1,0 +1,405 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun 16 16:22:17 2020
+# Process ID: 984
+# Current directory: E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/main_control_ax_pwm_0_1_synth_1
+# Command line: vivado.exe -log main_control_ax_pwm_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_control_ax_pwm_0_1.tcl
+# Log file: E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/main_control_ax_pwm_0_1_synth_1/main_control_ax_pwm_0_1.vds
+# Journal file: E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/main_control_ax_pwm_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source main_control_ax_pwm_0_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/firmware/XILINX/demo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top main_control_ax_pwm_0_1 -part xc7z020clg484-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2904 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 470.527 ; gain = 96.852
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main_control_ax_pwm_0_1' [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_ax_pwm_0_1/synth/main_control_ax_pwm_0_1.v:56]
+INFO: [Synth 8-6157] synthesizing module 'ax_pwm_v1_0' [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/hdl/ax_pwm_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ax_pwm_v1_0_S00_AXI' [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/hdl/ax_pwm_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/hdl/ax_pwm_v1_0_S00_AXI.v:233]
+INFO: [Synth 8-226] default block is never used [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/hdl/ax_pwm_v1_0_S00_AXI.v:374]
+INFO: [Synth 8-6157] synthesizing module 'ax_pwm' [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/src/ax_pwm.v:34]
+	Parameter N bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element period_r_reg was removed.  [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/src/ax_pwm.v:63]
+WARNING: [Synth 8-6014] Unused sequential element duty_r_reg was removed.  [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/src/ax_pwm.v:64]
+WARNING: [Synth 8-6014] Unused sequential element period_cnt_reg was removed.  [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/src/ax_pwm.v:76]
+INFO: [Synth 8-6155] done synthesizing module 'ax_pwm' (1#1) [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/src/ax_pwm.v:34]
+WARNING: [Synth 8-689] width (32) of port connection 'enable' does not match port width (1) of module 'ax_pwm' [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/hdl/ax_pwm_v1_0_S00_AXI.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'ax_pwm_v1_0_S00_AXI' (2#1) [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/hdl/ax_pwm_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ax_pwm_v1_0' (3#1) [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ipshared/196c/hdl/ax_pwm_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'main_control_ax_pwm_0_1' (4#1) [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_ax_pwm_0_1/synth/main_control_ax_pwm_0_1.v:56]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[31]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[30]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[29]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[28]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[27]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[26]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[25]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[24]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[23]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[22]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[21]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[20]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[19]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[18]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[17]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[16]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[15]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[14]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[13]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[12]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[11]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[10]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[9]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[8]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[7]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[6]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[5]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[4]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[3]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[2]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[1]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port period[0]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[31]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[30]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[29]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[28]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[27]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[26]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[25]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[24]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[23]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[22]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[21]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[20]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[19]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[18]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[17]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[16]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[15]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[14]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[13]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[12]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[11]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[10]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[9]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[8]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[7]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[6]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[5]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[4]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[3]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[2]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[1]
+WARNING: [Synth 8-3331] design ax_pwm has unconnected port duty[0]
+WARNING: [Synth 8-3331] design ax_pwm_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design ax_pwm_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design ax_pwm_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design ax_pwm_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design ax_pwm_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design ax_pwm_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 526.652 ; gain = 152.977
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 526.652 ; gain = 152.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 526.652 ; gain = 152.977
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 858.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 858.891 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.051 . Memory (MB): peak = 860.836 ; gain = 1.945
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 860.836 ; gain = 487.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 860.836 ; gain = 487.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 860.836 ; gain = 487.160
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "lasel_out_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 860.836 ; gain = 487.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ax_pwm 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ax_pwm_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "inst/ax_pwm_v1_0_S00_AXI_inst/ax_pwm_m0/lasel_out_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design main_control_ax_pwm_0_1 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design main_control_ax_pwm_0_1 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design main_control_ax_pwm_0_1 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design main_control_ax_pwm_0_1 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design main_control_ax_pwm_0_1 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design main_control_ax_pwm_0_1 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'inst/ax_pwm_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/ax_pwm_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/ax_pwm_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/ax_pwm_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/ax_pwm_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/ax_pwm_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 860.836 ; gain = 487.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 873.414 ; gain = 499.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 873.637 ; gain = 499.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 884.914 ; gain = 511.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 884.914 ; gain = 511.238
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 884.914 ; gain = 511.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 884.914 ; gain = 511.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 884.914 ; gain = 511.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 884.914 ; gain = 511.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 884.914 ; gain = 511.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     8|
+|2     |LUT1   |     3|
+|3     |LUT2   |     1|
+|4     |LUT3   |     2|
+|5     |LUT4   |    22|
+|6     |LUT6   |    42|
+|7     |FDCE   |    33|
+|8     |FDPE   |     1|
+|9     |FDRE   |   169|
+|10    |FDSE   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------------+--------------------+------+
+|      |Instance                     |Module              |Cells |
++------+-----------------------------+--------------------+------+
+|1     |top                          |                    |   282|
+|2     |  inst                       |ax_pwm_v1_0         |   282|
+|3     |    ax_pwm_v1_0_S00_AXI_inst |ax_pwm_v1_0_S00_AXI |   282|
+|4     |      ax_pwm_m0              |ax_pwm              |    52|
++------+-----------------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 884.914 ; gain = 511.238
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 884.914 ; gain = 177.055
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 884.914 ; gain = 511.238
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 895.008 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 81 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 895.008 ; gain = 532.797
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 895.008 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/main_control_ax_pwm_0_1_synth_1/main_control_ax_pwm_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP main_control_ax_pwm_0_1, cache-ID = 99b96f8c28e7fcae
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 895.008 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/main_control_ax_pwm_0_1_synth_1/main_control_ax_pwm_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_control_ax_pwm_0_1_utilization_synth.rpt -pb main_control_ax_pwm_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 16 16:22:48 2020...

@@ -1,0 +1,32 @@
+16:43:51 INFO  : Registering command handlers for SDK TCF services
+16:43:51 INFO  : Launching XSCT server: xsct.bat -interactive E:\firmware\XILINX\demo\main_control_RTOS\main_control_RTOS.sdk\temp_xsdb_launch_script.tcl
+16:43:53 INFO  : XSCT server has started successfully.
+16:43:54 INFO  : Successfully done setting XSCT server connection channel  
+16:43:54 INFO  : Successfully done setting SDK workspace  
+16:43:54 INFO  : Processing command line option -hwspec E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.sdk/main_control_wrapper.hdf.
+19:48:17 INFO  : Registering command handlers for SDK TCF services
+19:48:18 INFO  : Launching XSCT server: xsct.bat -interactive E:\firmware\XILINX\demo\main_control_RTOS\main_control_RTOS.sdk\temp_xsdb_launch_script.tcl
+19:48:21 INFO  : XSCT server has started successfully.
+19:48:21 INFO  : Successfully done setting XSCT server connection channel  
+19:48:21 INFO  : Successfully done setting SDK workspace  
+17:45:36 INFO  : Registering command handlers for SDK TCF services
+17:45:36 INFO  : Launching XSCT server: xsct.bat -interactive E:\firmware\XILINX\demo\main_control_RTOS\main_control_RTOS.sdk\temp_xsdb_launch_script.tcl
+17:45:39 INFO  : XSCT server has started successfully.
+17:45:39 INFO  : Successfully done setting XSCT server connection channel  
+17:45:40 INFO  : Successfully done setting SDK workspace  
+17:45:40 INFO  : Processing command line option -hwspec E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.sdk/main_control_wrapper.hdf.
+17:45:40 INFO  : Checking for hwspec changes in the project main_control_wrapper_hw_platform_0.
+13:40:49 INFO  : Registering command handlers for SDK TCF services
+13:40:49 INFO  : Launching XSCT server: xsct.bat -interactive E:\firmware\XILINX\demo\main_control_RTOS\main_control_RTOS.sdk\temp_xsdb_launch_script.tcl
+13:40:52 INFO  : XSCT server has started successfully.
+13:40:53 INFO  : Successfully done setting XSCT server connection channel  
+13:40:53 INFO  : Successfully done setting SDK workspace  
+13:40:53 INFO  : Processing command line option -hwspec E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.sdk/main_control_wrapper.hdf.
+13:40:53 INFO  : Checking for hwspec changes in the project main_control_wrapper_hw_platform_0.
+14:01:53 INFO  : Registering command handlers for SDK TCF services
+14:01:53 INFO  : Launching XSCT server: xsct.bat -interactive E:\firmware\XILINX\demo\main_control_RTOS\main_control_RTOS.sdk\temp_xsdb_launch_script.tcl
+14:01:56 INFO  : XSCT server has started successfully.
+14:01:56 INFO  : Successfully done setting XSCT server connection channel  
+14:01:57 INFO  : Successfully done setting SDK workspace  
+14:01:57 INFO  : Processing command line option -hwspec E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.sdk/main_control_wrapper.hdf.
+14:01:57 INFO  : Checking for hwspec changes in the project main_control_wrapper_hw_platform_0.

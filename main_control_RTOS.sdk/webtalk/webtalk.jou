@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Tue Jun 16 19:46:58 2020
+# Process ID: 22032
+# Current directory: E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.sdk/webtalk/webtalk.log
+# Journal file: E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

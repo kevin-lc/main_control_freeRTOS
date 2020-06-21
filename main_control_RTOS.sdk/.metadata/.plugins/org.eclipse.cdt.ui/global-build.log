@@ -1,0 +1,518 @@
+17:02:52 **** Incremental Build of configuration Debug for project freeos_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:08:05 **** Build of project freeos_control_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/ad9226_sample_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ad9226_sample_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_8/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ax_pwm_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ax_pwm_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/ad9226_sample_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ad9226_sample_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ad9226_sample..."
+ad9226_sample_selftest.c: In function 'AD9226_SAMPLE_Reg_SelfTest':
+ad9226_sample_selftest.c:52:62: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( AD9226_SAMPLE_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                              ^~
+ad9226_sample_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_8/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling axidma"
+"Running Make libs in ps7_cortexa9_0/libsrc/ax_pwm_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ax_pwm_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ax_pwm..."
+ax_pwm_selftest.c: In function 'AX_PWM_Reg_SelfTest':
+ax_pwm_selftest.c:52:55: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( AX_PWM_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                       ^~
+ax_pwm_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+"Compiling FreeRTOS"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+18:08:49 **** Build of configuration Debug for project freeos_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_control.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_control.d" -MT"src/freertos_control.o" -o "src/freertos_control.o" "../src/freertos_control.c"
+../src/freertos_control.c:104:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/freertos_control.o] Error 1
+18:10:25 **** Auto Build of configuration Debug for project freeos_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AD7226.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD7226.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD7226.d" -MT"src/AD7226.o" -o "src/AD7226.o" "../src/AD7226.c"
+'Finished building: ../src/AD7226.c'
+' '
+'Building file: ../src/AD7416.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD7416.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD7416.d" -MT"src/AD7416.o" -o "src/AD7416.o" "../src/AD7416.c"
+'Finished building: ../src/AD7416.c'
+' '
+'Building file: ../src/AD7829.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD7829.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AD7829.d" -MT"src/AD7829.o" -o "src/AD7829.o" "../src/AD7829.c"
+'Finished building: ../src/AD7829.c'
+' '
+'Building file: ../src/ad8032.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ad8032.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ad8032.d" -MT"src/ad8032.o" -o "src/ad8032.o" "../src/ad8032.c"
+'Finished building: ../src/ad8032.c'
+' '
+'Building file: ../src/control.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/control.d" -MT"src/control.o" -o "src/control.o" "../src/control.c"
+'Finished building: ../src/control.c'
+' '
+'Building file: ../src/dma_bd.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_bd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_bd.d" -MT"src/dma_bd.o" -o "src/dma_bd.o" "../src/dma_bd.c"
+../src/dma_bd.c: In function 'XAxiDma_Initial':
+../src/dma_bd.c:161:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/dma_bd.c'
+' '
+'Building file: ../src/freertos_control.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_control.d" -MT"src/freertos_control.o" -o "src/freertos_control.o" "../src/freertos_control.c"
+../src/freertos_control.c:104:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:53: src/freertos_control.o] Error 1
+18:11:48 **** Auto Build of configuration Debug for project freeos_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_control.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_control.d" -MT"src/freertos_control.o" -o "src/freertos_control.o" "../src/freertos_control.c"
+../src/freertos_control.c:104:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:53: src/freertos_control.o] Error 1
+18:11:57 **** Clean-only build of configuration Debug for project freeos_control ****
+make clean 
+rm -rf  ./src/AD7226.o ./src/AD7416.o ./src/AD7829.o ./src/ad8032.o ./src/control.o ./src/dma_bd.o ./src/freertos_control.o ./src/interrupt.o ./src/str_fun.o ./src/timer.o ./src/uart.o  ./src/AD7226.d ./src/AD7416.d ./src/AD7829.d ./src/ad8032.d ./src/control.d ./src/dma_bd.d ./src/freertos_control.d ./src/interrupt.d ./src/str_fun.d ./src/timer.d ./src/uart.d  freeos_control.elf.size  freeos_control.elf
+' '
+18:11:57 **** Auto Build of configuration Debug for project freeos_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Device/AD7226.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/AD7226.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/AD7226.d" -MT"src/Device/AD7226.o" -o "src/Device/AD7226.o" "../src/Device/AD7226.c"
+'Finished building: ../src/Device/AD7226.c'
+' '
+'Building file: ../src/Device/AD7416.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/AD7416.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/AD7416.d" -MT"src/Device/AD7416.o" -o "src/Device/AD7416.o" "../src/Device/AD7416.c"
+'Finished building: ../src/Device/AD7416.c'
+' '
+'Building file: ../src/Device/AD7829.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/AD7829.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/AD7829.d" -MT"src/Device/AD7829.o" -o "src/Device/AD7829.o" "../src/Device/AD7829.c"
+'Finished building: ../src/Device/AD7829.c'
+' '
+'Building file: ../src/Device/ad8032.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/ad8032.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/ad8032.d" -MT"src/Device/ad8032.o" -o "src/Device/ad8032.o" "../src/Device/ad8032.c"
+'Finished building: ../src/Device/ad8032.c'
+' '
+'Building file: ../src/Device/control.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/control.d" -MT"src/Device/control.o" -o "src/Device/control.o" "../src/Device/control.c"
+'Finished building: ../src/Device/control.c'
+' '
+'Building file: ../src/Device/dma_bd.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/dma_bd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/dma_bd.d" -MT"src/Device/dma_bd.o" -o "src/Device/dma_bd.o" "../src/Device/dma_bd.c"
+../src/Device/dma_bd.c: In function 'XAxiDma_Initial':
+../src/Device/dma_bd.c:161:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Device/dma_bd.c'
+' '
+'Building file: ../src/freertos_control.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_control.d" -MT"src/freertos_control.o" -o "src/freertos_control.o" "../src/freertos_control.c"
+../src/freertos_control.c:104:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:35: src/freertos_control.o] Error 1
+18:12:12 **** Clean-only build of configuration Debug for project freeos_control ****
+make clean 
+rm -rf  ./src/Device/AD7226.o ./src/Device/AD7416.o ./src/Device/AD7829.o ./src/Device/ad8032.o ./src/Device/control.o ./src/Device/dma_bd.o  ./src/freertos_control.o ./src/interrupt.o ./src/str_fun.o ./src/timer.o ./src/uart.o  ./src/Device/AD7226.d ./src/Device/AD7416.d ./src/Device/AD7829.d ./src/Device/ad8032.d ./src/Device/control.d ./src/Device/dma_bd.d  ./src/freertos_control.d ./src/interrupt.d ./src/str_fun.d ./src/timer.d ./src/uart.d  freeos_control.elf.size  freeos_control.elf
+' '
+18:12:13 **** Auto Build of configuration Debug for project freeos_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Device/AD7226.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/AD7226.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/AD7226.d" -MT"src/Device/AD7226.o" -o "src/Device/AD7226.o" "../src/Device/AD7226.c"
+'Finished building: ../src/Device/AD7226.c'
+' '
+'Building file: ../src/Device/AD7416.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/AD7416.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/AD7416.d" -MT"src/Device/AD7416.o" -o "src/Device/AD7416.o" "../src/Device/AD7416.c"
+'Finished building: ../src/Device/AD7416.c'
+' '
+'Building file: ../src/Device/AD7829.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/AD7829.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/AD7829.d" -MT"src/Device/AD7829.o" -o "src/Device/AD7829.o" "../src/Device/AD7829.c"
+'Finished building: ../src/Device/AD7829.c'
+' '
+'Building file: ../src/Device/ad8032.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/ad8032.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/ad8032.d" -MT"src/Device/ad8032.o" -o "src/Device/ad8032.o" "../src/Device/ad8032.c"
+'Finished building: ../src/Device/ad8032.c'
+' '
+'Building file: ../src/Device/control.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/control.d" -MT"src/Device/control.o" -o "src/Device/control.o" "../src/Device/control.c"
+'Finished building: ../src/Device/control.c'
+' '
+'Building file: ../src/Device/dma_bd.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/dma_bd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/dma_bd.d" -MT"src/Device/dma_bd.o" -o "src/Device/dma_bd.o" "../src/Device/dma_bd.c"
+../src/Device/dma_bd.c: In function 'XAxiDma_Initial':
+../src/Device/dma_bd.c:161:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Device/dma_bd.c'
+' '
+'Building file: ../src/Device/interrupt.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/interrupt.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/interrupt.d" -MT"src/Device/interrupt.o" -o "src/Device/interrupt.o" "../src/Device/interrupt.c"
+../src/Device/interrupt.c: In function 'SetupIntrSystem':
+../src/Device/interrupt.c:6:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Device/interrupt.c'
+' '
+'Building file: ../src/Device/str_fun.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/str_fun.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/str_fun.d" -MT"src/Device/str_fun.o" -o "src/Device/str_fun.o" "../src/Device/str_fun.c"
+'Finished building: ../src/Device/str_fun.c'
+' '
+'Building file: ../src/Device/timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/timer.d" -MT"src/Device/timer.o" -o "src/Device/timer.o" "../src/Device/timer.c"
+../src/Device/timer.c: In function 'timer_Initial':
+../src/Device/timer.c:6:6: warning: unused variable 'LastTimerExpired' [-Wunused-variable]
+  int LastTimerExpired = 0;
+      ^~~~~~~~~~~~~~~~
+../src/Device/timer.c: In function 'Timer_Interrupt_Handler':
+../src/Device/timer.c:26:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("%d Second\n",TimerExpired);
+   ^~~~~~
+../src/Device/timer.c:26:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/Device/timer.c:26:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+'Finished building: ../src/Device/timer.c'
+' '
+'Building file: ../src/Device/uart.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Device/uart.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Device/uart.d" -MT"src/Device/uart.o" -o "src/Device/uart.o" "../src/Device/uart.c"
+../src/Device/uart.c: In function 'uart_Initial':
+../src/Device/uart.c:14:6: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  int status;
+      ^~~~~~
+../src/Device/uart.c: In function 'uart_intr_handler':
+../src/Device/uart.c:38:18: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  u8 *send_temp = "abcd";
+                  ^~~~~~
+../src/Device/uart.c:38:6: warning: unused variable 'send_temp' [-Wunused-variable]
+  u8 *send_temp = "abcd";
+      ^~~~~~~~~
+../src/Device/uart.c: In function 'UART_process':
+../src/Device/uart.c:75:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("lsp: 20200506\n");
+    ^~~~~~
+../src/Device/uart.c:75:4: warning: incompatible implicit declaration of built-in function 'printf'
+../src/Device/uart.c:75:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/Device/uart.c:78:34: warning: pointer targets in passing argument 2 of 'strcmp1' differ in signedness [-Wpointer-sign]
+    if(strcmp1(&UART_RX_Buffer[5],"ON")==1)
+                                  ^~~~
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:6:4: note: expected 'const u8 * {aka const unsigned char *}' but argument is of type 'char *'
+ u8 strcmp1(const u8 *souce,const u8 *destination);
+    ^~~~~~~
+../src/Device/uart.c:83:39: warning: pointer targets in passing argument 2 of 'strcmp1' differ in signedness [-Wpointer-sign]
+    else if(strcmp1(&UART_RX_Buffer[5],"OFF")==1)
+                                       ^~~~~
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:6:4: note: expected 'const u8 * {aka const unsigned char *}' but argument is of type 'char *'
+ u8 strcmp1(const u8 *souce,const u8 *destination);
+    ^~~~~~~
+../src/Device/uart.c:90:16: warning: passing argument 1 of 'strtounchar' from incompatible pointer type [-Wincompatible-pointer-types]
+    strtounchar(&UART_RX_Buffer, &setvalue);
+                ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:7:4: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u8 (*)[4096] {aka unsigned char (*)[4096]}'
+ u8 strtounchar(u8 str[], u8 *num);
+    ^~~~~~~~~~~
+../src/Device/uart.c:91:4: warning: implicit declaration of function 'AD8320_SET'; did you mean 'AD9226_START'? [-Wimplicit-function-declaration]
+    AD8320_SET(setvalue);
+    ^~~~~~~~~~
+    AD9226_START
+../src/Device/uart.c:98:16: warning: passing argument 1 of 'strtounchar' from incompatible pointer type [-Wincompatible-pointer-types]
+    strtounchar(&UART_RX_Buffer, &setvalue);
+                ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:7:4: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u8 (*)[4096] {aka unsigned char (*)[4096]}'
+ u8 strtounchar(u8 str[], u8 *num);
+    ^~~~~~~~~~~
+../src/Device/uart.c:99:4: warning: implicit declaration of function 'AD7226_DATA_Set'; did you mean 'AD9226_START'? [-Wimplicit-function-declaration]
+    AD7226_DATA_Set(setvalue, 0);
+    ^~~~~~~~~~~~~~~
+    AD9226_START
+../src/Device/uart.c:102:16: warning: passing argument 1 of 'strtounchar' from incompatible pointer type [-Wincompatible-pointer-types]
+    strtounchar(&UART_RX_Buffer, &setvalue);
+                ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:7:4: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u8 (*)[4096] {aka unsigned char (*)[4096]}'
+ u8 strtounchar(u8 str[], u8 *num);
+    ^~~~~~~~~~~
+../src/Device/uart.c:106:16: warning: passing argument 1 of 'strtounchar' from incompatible pointer type [-Wincompatible-pointer-types]
+    strtounchar(&UART_RX_Buffer, &setvalue);
+                ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:7:4: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u8 (*)[4096] {aka unsigned char (*)[4096]}'
+ u8 strtounchar(u8 str[], u8 *num);
+    ^~~~~~~~~~~
+../src/Device/uart.c:117:20: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+    printf("APDT:%.2f\n",temp_value);
+                 ~~~^
+                 %.2d
+../src/Device/uart.c:69:5: warning: variable 'temp_char' set but not used [-Wunused-but-set-variable]
+  u8 temp_char=0;
+     ^~~~~~~~~
+../src/Device/uart.c: In function 'judge_command':
+../src/Device/uart.c:128:19: warning: passing argument 2 of 'strcmp1' from incompatible pointer type [-Wincompatible-pointer-types]
+  if(strcmp1(souce,&C_CMD_IDN)==1)
+                   ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:6:4: note: expected 'const u8 * {aka const unsigned char *}' but argument is of type 'u8 (*)[6] {aka unsigned char (*)[6]}'
+ u8 strcmp1(const u8 *souce,const u8 *destination);
+    ^~~~~~~
+../src/Device/uart.c:131:24: warning: passing argument 2 of 'strcmp1' from incompatible pointer type [-Wincompatible-pointer-types]
+  else if(strcmp1(souce,&C_CMD_15SW)==1)
+                        ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:6:4: note: expected 'const u8 * {aka const unsigned char *}' but argument is of type 'u8 (*)[6] {aka unsigned char (*)[6]}'
+ u8 strcmp1(const u8 *souce,const u8 *destination);
+    ^~~~~~~
+../src/Device/uart.c:134:24: warning: passing argument 2 of 'strcmp1' from incompatible pointer type [-Wincompatible-pointer-types]
+  else if(strcmp1(souce,&C_CMD_SET_GAIN)==1)
+                        ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:6:4: note: expected 'const u8 * {aka const unsigned char *}' but argument is of type 'u8 (*)[6] {aka unsigned char (*)[6]}'
+ u8 strcmp1(const u8 *souce,const u8 *destination);
+    ^~~~~~~
+../src/Device/uart.c:137:24: warning: passing argument 2 of 'strcmp1' from incompatible pointer type [-Wincompatible-pointer-types]
+  else if(strcmp1(souce,&C_CMD_GET_ADC)==1)
+                        ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:6:4: note: expected 'const u8 * {aka const unsigned char *}' but argument is of type 'u8 (*)[5] {aka unsigned char (*)[5]}'
+ u8 strcmp1(const u8 *souce,const u8 *destination);
+    ^~~~~~~
+../src/Device/uart.c:140:24: warning: passing argument 2 of 'strcmp1' from incompatible pointer type [-Wincompatible-pointer-types]
+  else if(strcmp1(souce,&C_CMD_SET_LHV)==1)
+                        ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:6:4: note: expected 'const u8 * {aka const unsigned char *}' but argument is of type 'u8 (*)[5] {aka unsigned char (*)[5]}'
+ u8 strcmp1(const u8 *souce,const u8 *destination);
+    ^~~~~~~
+../src/Device/uart.c:143:24: warning: passing argument 2 of 'strcmp1' from incompatible pointer type [-Wincompatible-pointer-types]
+  else if(strcmp1(souce,&C_CMD_SET_RHV)==1)
+                        ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:6:4: note: expected 'const u8 * {aka const unsigned char *}' but argument is of type 'u8 (*)[5] {aka unsigned char (*)[5]}'
+ u8 strcmp1(const u8 *souce,const u8 *destination);
+    ^~~~~~~
+../src/Device/uart.c:146:24: warning: passing argument 2 of 'strcmp1' from incompatible pointer type [-Wincompatible-pointer-types]
+  else if(strcmp1(souce,&C_CMD_SET_ROFST)==1)
+                        ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:6:4: note: expected 'const u8 * {aka const unsigned char *}' but argument is of type 'u8 (*)[7] {aka unsigned char (*)[7]}'
+ u8 strcmp1(const u8 *souce,const u8 *destination);
+    ^~~~~~~
+../src/Device/uart.c:149:24: warning: passing argument 2 of 'strcmp1' from incompatible pointer type [-Wincompatible-pointer-types]
+  else if(strcmp1(souce,&C_CMD_GET_APDT)==1)
+                        ^
+In file included from ../src/Device/uart.h:8:0,
+                 from ../src/Device/uart.c:1:
+../src/Device/str_fun.h:6:4: note: expected 'const u8 * {aka const unsigned char *}' but argument is of type 'u8 (*)[6] {aka unsigned char (*)[6]}'
+ u8 strcmp1(const u8 *souce,const u8 *destination);
+    ^~~~~~~
+'Finished building: ../src/Device/uart.c'
+' '
+'Building file: ../src/freertos_control.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_control.d" -MT"src/freertos_control.o" -o "src/freertos_control.o" "../src/freertos_control.c"
+../src/freertos_control.c:104:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/freertos_control.o] Error 1
+18:13:23 **** Auto Build of configuration Debug for project freeos_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_control.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_control.d" -MT"src/freertos_control.o" -o "src/freertos_control.o" "../src/freertos_control.c"
+../src/freertos_control.c:131:1: error: unknown type name 'XGpioPs'; did you mean 'XGpio'?
+ XGpioPs GPIO_PTR ;
+ ^~~~~~~
+ XGpio
+../src/freertos_control.c: In function 'PsGpioSetup':
+../src/freertos_control.c:258:2: error: unknown type name 'XGpioPs_Config'; did you mean 'XGpio_Config'?
+  XGpioPs_Config *GpioCfg ;
+  ^~~~~~~~~~~~~~
+  XGpio_Config
+../src/freertos_control.c:260:12: warning: implicit declaration of function 'XGpioPs_LookupConfig'; did you mean 'XGpio_LookupConfig'? [-Wimplicit-function-declaration]
+  GpioCfg = XGpioPs_LookupConfig(MIO_0_ID) ;
+            ^~~~~~~~~~~~~~~~~~~~
+            XGpio_LookupConfig
+../src/freertos_control.c:128:18: error: 'XPAR_PS7_GPIO_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_PS7_QSPI_0_DEVICE_ID'?
+ #define MIO_0_ID XPAR_PS7_GPIO_0_DEVICE_ID
+                  ^
+../src/freertos_control.c:260:33: note: in expansion of macro 'MIO_0_ID'
+  GpioCfg = XGpioPs_LookupConfig(MIO_0_ID) ;
+                                 ^~~~~~~~
+../src/freertos_control.c:128:18: note: each undeclared identifier is reported only once for each function it appears in
+ #define MIO_0_ID XPAR_PS7_GPIO_0_DEVICE_ID
+                  ^
+../src/freertos_control.c:260:33: note: in expansion of macro 'MIO_0_ID'
+  GpioCfg = XGpioPs_LookupConfig(MIO_0_ID) ;
+                                 ^~~~~~~~
+../src/freertos_control.c:261:11: warning: implicit declaration of function 'XGpioPs_CfgInitialize'; did you mean 'XGpio_CfgInitialize'? [-Wimplicit-function-declaration]
+  Status = XGpioPs_CfgInitialize(&GPIO_PTR, GpioCfg, GpioCfg->BaseAddr) ;
+           ^~~~~~~~~~~~~~~~~~~~~
+           XGpio_CfgInitialize
+../src/freertos_control.c:261:60: error: request for member 'BaseAddr' in something not a structure or union
+  Status = XGpioPs_CfgInitialize(&GPIO_PTR, GpioCfg, GpioCfg->BaseAddr) ;
+                                                            ^~
+../src/freertos_control.c:267:2: warning: implicit declaration of function 'XGpioPs_SetDirectionPin'; did you mean 'XGpio_SetDataDirection'? [-Wimplicit-function-declaration]
+  XGpioPs_SetDirectionPin(&GPIO_PTR, 9, GPIO_OUTPUT) ;
+  ^~~~~~~~~~~~~~~~~~~~~~~
+  XGpio_SetDataDirection
+../src/freertos_control.c:269:2: warning: implicit declaration of function 'XGpioPs_SetOutputEnablePin'; did you mean 'XGpio_InterruptEnable'? [-Wimplicit-function-declaration]
+  XGpioPs_SetOutputEnablePin(&GPIO_PTR, 9, GPIO_OUTPUT) ;
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  XGpio_InterruptEnable
+../src/freertos_control.c: In function 'prvPsLedTask':
+../src/freertos_control.c:280:3: warning: implicit declaration of function 'XGpioPs_WritePin'; did you mean 'XGpio_WriteReg'? [-Wimplicit-function-declaration]
+   XGpioPs_WritePin(&GPIO_PTR, 9, PsLedVal) ;
+   ^~~~~~~~~~~~~~~~
+   XGpio_WriteReg
+../src/freertos_control.c: In function 'PlGpioSetup':
+../src/freertos_control.c:129:23: error: 'XPAR_AXI_GPIO_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_DMA_0_DEVICE_ID'?
+ #define LED_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID
+                       ^
+../src/freertos_control.c:299:39: note: in expansion of macro 'LED_DEVICE_ID'
+  Status = XGpio_Initialize(&Gpio_led, LED_DEVICE_ID) ;
+                                       ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/freertos_control.o] Error 1

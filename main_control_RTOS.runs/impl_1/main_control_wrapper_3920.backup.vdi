@@ -1,0 +1,1006 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun 16 16:37:34 2020
+# Process ID: 3920
+# Current directory: E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/impl_1
+# Command line: vivado.exe -log main_control_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source main_control_wrapper.tcl -notrace
+# Log file: E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/impl_1/main_control_wrapper.vdi
+# Journal file: E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source main_control_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/firmware/XILINX/demo/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+Command: link_design -top main_control_wrapper -part xc7z020clg484-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_VGCLK_0/main_control_VGCLK_0.dcp' for cell 'main_control_i/AD2_Addr'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_0/main_control_DA1_WR_0.dcp' for cell 'main_control_i/AD2_Convent'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_4/main_control_DA1_WR_4.dcp' for cell 'main_control_i/AD2_EOC'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_3/main_control_DA1_WR_3.dcp' for cell 'main_control_i/AD2_RD'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_1/main_control_DA1_WR_1.dcp' for cell 'main_control_i/AD3_Convent'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD3_RD_0/main_control_AD3_RD_0.dcp' for cell 'main_control_i/AD3_EOC'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_2/main_control_DA1_WR_2.dcp' for cell 'main_control_i/AD3_RD'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_RD_2/main_control_AD2_RD_2.dcp' for cell 'main_control_i/AD7226'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_RD_0/main_control_AD2_RD_0.dcp' for cell 'main_control_i/AD7829_1_2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_Convent_0/main_control_AD2_Convent_0.dcp' for cell 'main_control_i/AD9226_BUFF_EN'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_Addr_0/main_control_AD2_Addr_0.dcp' for cell 'main_control_i/DA1_Addr'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_Addr_0/main_control_DA1_Addr_0.dcp' for cell 'main_control_i/DA1_WR'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_3/main_control_axi_gpio_0_3.dcp' for cell 'main_control_i/RCLEAR'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_VGSDATA_0/main_control_VGSDATA_0.dcp' for cell 'main_control_i/SW_15V'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_0/main_control_axi_gpio_0_0.dcp' for cell 'main_control_i/VGCLK'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_1/main_control_axi_gpio_0_1.dcp' for cell 'main_control_i/VGDATEN'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_2/main_control_axi_gpio_0_2.dcp' for cell 'main_control_i/VGSDATA'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_ad9226_sample_0_0/main_control_ad9226_sample_0_0.dcp' for cell 'main_control_i/ad9226_sample_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_ax_pwm_0_1/main_control_ax_pwm_0_1.dcp' for cell 'main_control_i/ax_pwm_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_dma_0_0/main_control_axi_dma_0_0.dcp' for cell 'main_control_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_processing_system7_0_0/main_control_processing_system7_0_0.dcp' for cell 'main_control_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_50M_0/main_control_rst_ps7_0_50M_0.dcp' for cell 'main_control_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_142M_1/main_control_rst_ps7_0_142M_1.dcp' for cell 'main_control_i/rst_ps7_0_142M'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_40M_0/main_control_rst_ps7_0_40M_0.dcp' for cell 'main_control_i/rst_ps7_0_ack'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_xbar_1/main_control_xbar_1.dcp' for cell 'main_control_i/axi_interconnect_0/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_auto_pc_1/main_control_auto_pc_1.dcp' for cell 'main_control_i/axi_interconnect_0/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_auto_us_0/main_control_auto_us_0.dcp' for cell 'main_control_i/axi_interconnect_0/s00_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_tier2_xbar_0_0/main_control_tier2_xbar_0_0.dcp' for cell 'main_control_i/ps7_0_axi_periph/tier2_xbar_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_tier2_xbar_1_0/main_control_tier2_xbar_1_0.dcp' for cell 'main_control_i/ps7_0_axi_periph/tier2_xbar_1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_tier2_xbar_2_0/main_control_tier2_xbar_2_0.dcp' for cell 'main_control_i/ps7_0_axi_periph/tier2_xbar_2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_xbar_0/main_control_xbar_0.dcp' for cell 'main_control_i/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_auto_pc_0/main_control_auto_pc_0.dcp' for cell 'main_control_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 189 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_processing_system7_0_0/main_control_processing_system7_0_0.xdc] for cell 'main_control_i/processing_system7_0/inst'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_processing_system7_0_0/main_control_processing_system7_0_0.xdc] for cell 'main_control_i/processing_system7_0/inst'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_0/main_control_axi_gpio_0_0_board.xdc] for cell 'main_control_i/VGCLK/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_0/main_control_axi_gpio_0_0_board.xdc] for cell 'main_control_i/VGCLK/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_0/main_control_axi_gpio_0_0.xdc] for cell 'main_control_i/VGCLK/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_0/main_control_axi_gpio_0_0.xdc] for cell 'main_control_i/VGCLK/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_50M_0/main_control_rst_ps7_0_50M_0_board.xdc] for cell 'main_control_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_50M_0/main_control_rst_ps7_0_50M_0_board.xdc] for cell 'main_control_i/rst_ps7_0_100M/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_50M_0/main_control_rst_ps7_0_50M_0.xdc] for cell 'main_control_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_50M_0/main_control_rst_ps7_0_50M_0.xdc] for cell 'main_control_i/rst_ps7_0_100M/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_1/main_control_axi_gpio_0_1_board.xdc] for cell 'main_control_i/VGDATEN/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_1/main_control_axi_gpio_0_1_board.xdc] for cell 'main_control_i/VGDATEN/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_1/main_control_axi_gpio_0_1.xdc] for cell 'main_control_i/VGDATEN/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_1/main_control_axi_gpio_0_1.xdc] for cell 'main_control_i/VGDATEN/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_2/main_control_axi_gpio_0_2_board.xdc] for cell 'main_control_i/VGSDATA/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_2/main_control_axi_gpio_0_2_board.xdc] for cell 'main_control_i/VGSDATA/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_2/main_control_axi_gpio_0_2.xdc] for cell 'main_control_i/VGSDATA/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_2/main_control_axi_gpio_0_2.xdc] for cell 'main_control_i/VGSDATA/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_3/main_control_axi_gpio_0_3_board.xdc] for cell 'main_control_i/RCLEAR/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_3/main_control_axi_gpio_0_3_board.xdc] for cell 'main_control_i/RCLEAR/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_3/main_control_axi_gpio_0_3.xdc] for cell 'main_control_i/RCLEAR/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_gpio_0_3/main_control_axi_gpio_0_3.xdc] for cell 'main_control_i/RCLEAR/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_ad9226_sample_0_0/src/afifo/afifo.xdc] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_ad9226_sample_0_0/src/afifo/afifo.xdc] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_dma_0_0/main_control_axi_dma_0_0.xdc] for cell 'main_control_i/axi_dma_0/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_dma_0_0/main_control_axi_dma_0_0.xdc] for cell 'main_control_i/axi_dma_0/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_40M_0/main_control_rst_ps7_0_40M_0_board.xdc] for cell 'main_control_i/rst_ps7_0_ack/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_40M_0/main_control_rst_ps7_0_40M_0_board.xdc] for cell 'main_control_i/rst_ps7_0_ack/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_40M_0/main_control_rst_ps7_0_40M_0.xdc] for cell 'main_control_i/rst_ps7_0_ack/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_40M_0/main_control_rst_ps7_0_40M_0.xdc] for cell 'main_control_i/rst_ps7_0_ack/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_142M_1/main_control_rst_ps7_0_142M_1_board.xdc] for cell 'main_control_i/rst_ps7_0_142M/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_142M_1/main_control_rst_ps7_0_142M_1_board.xdc] for cell 'main_control_i/rst_ps7_0_142M/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_142M_1/main_control_rst_ps7_0_142M_1.xdc] for cell 'main_control_i/rst_ps7_0_142M/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_rst_ps7_0_142M_1/main_control_rst_ps7_0_142M_1.xdc] for cell 'main_control_i/rst_ps7_0_142M/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_VGSDATA_0/main_control_VGSDATA_0_board.xdc] for cell 'main_control_i/SW_15V/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_VGSDATA_0/main_control_VGSDATA_0_board.xdc] for cell 'main_control_i/SW_15V/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_VGSDATA_0/main_control_VGSDATA_0.xdc] for cell 'main_control_i/SW_15V/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_VGSDATA_0/main_control_VGSDATA_0.xdc] for cell 'main_control_i/SW_15V/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_VGCLK_0/main_control_VGCLK_0_board.xdc] for cell 'main_control_i/AD2_Addr/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_VGCLK_0/main_control_VGCLK_0_board.xdc] for cell 'main_control_i/AD2_Addr/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_VGCLK_0/main_control_VGCLK_0.xdc] for cell 'main_control_i/AD2_Addr/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_VGCLK_0/main_control_VGCLK_0.xdc] for cell 'main_control_i/AD2_Addr/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_Addr_0/main_control_AD2_Addr_0_board.xdc] for cell 'main_control_i/DA1_Addr/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_Addr_0/main_control_AD2_Addr_0_board.xdc] for cell 'main_control_i/DA1_Addr/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_Addr_0/main_control_AD2_Addr_0.xdc] for cell 'main_control_i/DA1_Addr/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_Addr_0/main_control_AD2_Addr_0.xdc] for cell 'main_control_i/DA1_Addr/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_Addr_0/main_control_DA1_Addr_0_board.xdc] for cell 'main_control_i/DA1_WR/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_Addr_0/main_control_DA1_Addr_0_board.xdc] for cell 'main_control_i/DA1_WR/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_Addr_0/main_control_DA1_Addr_0.xdc] for cell 'main_control_i/DA1_WR/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_Addr_0/main_control_DA1_Addr_0.xdc] for cell 'main_control_i/DA1_WR/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_0/main_control_DA1_WR_0_board.xdc] for cell 'main_control_i/AD2_Convent/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_0/main_control_DA1_WR_0_board.xdc] for cell 'main_control_i/AD2_Convent/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_0/main_control_DA1_WR_0.xdc] for cell 'main_control_i/AD2_Convent/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_0/main_control_DA1_WR_0.xdc] for cell 'main_control_i/AD2_Convent/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_1/main_control_DA1_WR_1_board.xdc] for cell 'main_control_i/AD3_Convent/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_1/main_control_DA1_WR_1_board.xdc] for cell 'main_control_i/AD3_Convent/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_1/main_control_DA1_WR_1.xdc] for cell 'main_control_i/AD3_Convent/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_1/main_control_DA1_WR_1.xdc] for cell 'main_control_i/AD3_Convent/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_2/main_control_DA1_WR_2_board.xdc] for cell 'main_control_i/AD3_RD/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_2/main_control_DA1_WR_2_board.xdc] for cell 'main_control_i/AD3_RD/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_2/main_control_DA1_WR_2.xdc] for cell 'main_control_i/AD3_RD/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_2/main_control_DA1_WR_2.xdc] for cell 'main_control_i/AD3_RD/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_3/main_control_DA1_WR_3_board.xdc] for cell 'main_control_i/AD2_RD/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_3/main_control_DA1_WR_3_board.xdc] for cell 'main_control_i/AD2_RD/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_3/main_control_DA1_WR_3.xdc] for cell 'main_control_i/AD2_RD/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_3/main_control_DA1_WR_3.xdc] for cell 'main_control_i/AD2_RD/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_4/main_control_DA1_WR_4_board.xdc] for cell 'main_control_i/AD2_EOC/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_4/main_control_DA1_WR_4_board.xdc] for cell 'main_control_i/AD2_EOC/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_4/main_control_DA1_WR_4.xdc] for cell 'main_control_i/AD2_EOC/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_DA1_WR_4/main_control_DA1_WR_4.xdc] for cell 'main_control_i/AD2_EOC/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD3_RD_0/main_control_AD3_RD_0_board.xdc] for cell 'main_control_i/AD3_EOC/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD3_RD_0/main_control_AD3_RD_0_board.xdc] for cell 'main_control_i/AD3_EOC/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD3_RD_0/main_control_AD3_RD_0.xdc] for cell 'main_control_i/AD3_EOC/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD3_RD_0/main_control_AD3_RD_0.xdc] for cell 'main_control_i/AD3_EOC/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_RD_0/main_control_AD2_RD_0_board.xdc] for cell 'main_control_i/AD7829_1_2/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_RD_0/main_control_AD2_RD_0_board.xdc] for cell 'main_control_i/AD7829_1_2/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_RD_0/main_control_AD2_RD_0.xdc] for cell 'main_control_i/AD7829_1_2/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_RD_0/main_control_AD2_RD_0.xdc] for cell 'main_control_i/AD7829_1_2/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_RD_2/main_control_AD2_RD_2_board.xdc] for cell 'main_control_i/AD7226/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_RD_2/main_control_AD2_RD_2_board.xdc] for cell 'main_control_i/AD7226/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_RD_2/main_control_AD2_RD_2.xdc] for cell 'main_control_i/AD7226/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_RD_2/main_control_AD2_RD_2.xdc] for cell 'main_control_i/AD7226/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_Convent_0/main_control_AD2_Convent_0_board.xdc] for cell 'main_control_i/AD9226_BUFF_EN/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_Convent_0/main_control_AD2_Convent_0_board.xdc] for cell 'main_control_i/AD9226_BUFF_EN/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_Convent_0/main_control_AD2_Convent_0.xdc] for cell 'main_control_i/AD9226_BUFF_EN/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_AD2_Convent_0/main_control_AD2_Convent_0.xdc] for cell 'main_control_i/AD9226_BUFF_EN/U0'
+Parsing XDC File [E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/constrs_1/new/maincontrol.xdc]
+Finished Parsing XDC File [E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/constrs_1/new/maincontrol.xdc]
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_ad9226_sample_0_0/src/afifo/afifo_clocks.xdc] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_ad9226_sample_0_0/src/afifo/afifo_clocks.xdc] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_dma_0_0/main_control_axi_dma_0_0_clocks.xdc] for cell 'main_control_i/axi_dma_0/U0'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_axi_dma_0_0/main_control_axi_dma_0_0_clocks.xdc] for cell 'main_control_i/axi_dma_0/U0'
+Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_auto_us_0/main_control_auto_us_0_clocks.xdc] for cell 'main_control_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [e:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.srcs/sources_1/bd/main_control/ip/main_control_auto_us_0/main_control_auto_us_0_clocks.xdc] for cell 'main_control_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl:2]
+all_registers: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1401.926 ; gain = 571.715
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'main_control_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'main_control_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'main_control_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'main_control_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'main_control_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'main_control_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'main_control_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'main_control_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'main_control_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Finished Sourcing Tcl File [D:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'main_control_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1402.723 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 35 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 29 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 5 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+43 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1402.723 ; gain = 1005.867
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.732 . Memory (MB): peak = 1402.723 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1a9649407
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.510 . Memory (MB): peak = 1402.723 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 8 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 173f25f06
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1454.117 ; gain = 0.590
+INFO: [Opt 31-389] Phase Retarget created 476 cells and removed 719 cells
+INFO: [Opt 31-1021] In phase Retarget, 48 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 4 load pin(s).
+Phase 2 Constant propagation | Checksum: 18c760a41
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1454.117 ; gain = 0.590
+INFO: [Opt 31-389] Phase Constant propagation created 341 cells and removed 1166 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 17 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1eab0c1c1
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1454.117 ; gain = 0.590
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 802 cells
+INFO: [Opt 31-1021] In phase Sweep, 86 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1eab0c1c1
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1454.117 ; gain = 0.590
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 27c6e14d0
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1454.117 ; gain = 0.590
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 236fbb426
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1454.117 ; gain = 0.590
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 17 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             476  |             719  |                                             48  |
+|  Constant propagation         |             341  |            1166  |                                             17  |
+|  Sweep                        |               1  |             802  |                                             86  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             17  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1454.117 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 25bcdc5d3
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1454.117 ; gain = 0.590
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.632 | TNS=-18.598 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 1 BRAM(s) out of a total of 4 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 3 newly gated: 0 Total Ports: 8
+Ending PowerOpt Patch Enables Task | Checksum: 29f5e2936
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 29f5e2936
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1716.305 ; gain = 262.188
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 23fe8b4f5
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 23fe8b4f5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 23fe8b4f5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1716.305 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+70 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1716.305 ; gain = 313.582
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1716.305 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.069 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1716.305 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/impl_1/main_control_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file main_control_wrapper_drc_opted.rpt -pb main_control_wrapper_drc_opted.pb -rpx main_control_wrapper_drc_opted.rpx
+Command: report_drc -file main_control_wrapper_drc_opted.rpt -pb main_control_wrapper_drc_opted.pb -rpx main_control_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+INFO: [Common 17-14] Message 'Designutils 20-3303' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Coretcl 2-168] The results of DRC are in file E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/impl_1/main_control_wrapper_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1840 rule limit reached: 20 violations have been found.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRARDADDR[10] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[6]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRARDADDR[11] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[7]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRARDADDR[12] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[8]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRARDADDR[13] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[9]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRARDADDR[4] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[0]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRARDADDR[5] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[1]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRARDADDR[6] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[2]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRARDADDR[7] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[3]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRARDADDR[8] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[4]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRARDADDR[9] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/Q[5]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRBWRADDR[10] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_0[6]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRBWRADDR[11] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_0[7]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRBWRADDR[12] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_0[8]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRBWRADDR[13] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_0[9]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRBWRADDR[4] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_0[0]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRBWRADDR[5] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_0[1]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRBWRADDR[6] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_0[2]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRBWRADDR[7] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_0[3]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRBWRADDR[8] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_0[4]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has an input control pin main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram/ADDRBWRADDR[9] (net: main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram_0[5]) which is driven by a register (main_control_i/ad9226_sample_0/inst/ad9226_sample_v1_0_S00_AXI_inst/sample_inst/afifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 21 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1a4706eca
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: edb6dbb8
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 162470961
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 162470961
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 162470961
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 19a0b25c1
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 2.2 Physical Synthesis In Placer
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for HD net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+----------------------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  HD Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                         |            0  |              0  |                     0  |           0  |           5  |  00:00:00  |
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: f4daef70
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:13 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 14f4e56c3
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 14f4e56c3
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1840322d1
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 16fef8161
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 199e397ed
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 12e44ed81
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 1313ac27d
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:19 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 120889d0e
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:19 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 15d1bac35
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:19 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 18a46b3d8
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:21 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 18a46b3d8
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:21 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1620d5c55
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-46] BUFG insertion identified 0 candidate nets, 0 success, 0 bufg driver replicated, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1620d5c55
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:23 . Memory (MB): peak = 1716.305 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.140. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 10ed68429
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:31 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 10ed68429
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:31 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 10ed68429
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:31 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 10ed68429
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:31 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 1cf096ff6
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:31 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1cf096ff6
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:31 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Ending Placer Task | Checksum: 192802fc4
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:31 . Memory (MB): peak = 1716.305 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+101 Infos, 121 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:32 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1716.305 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 1716.305 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/impl_1/main_control_wrapper_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file main_control_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 1716.305 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file main_control_wrapper_utilization_placed.rpt -pb main_control_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file main_control_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+INFO: [Common 17-14] Message 'Designutils 20-3303' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 9ef05dba ConstDB: 0 ShapeSum: f38fd20a RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: ef4a9441
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:25 . Memory (MB): peak = 1716.305 ; gain = 0.000
+Post Restoration Checksum: NetGraph: bdaf40a1 NumContArr: 319b53a0 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: ef4a9441
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:25 . Memory (MB): peak = 1716.305 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: ef4a9441
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 1722.219 ; gain = 5.914
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: ef4a9441
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 1722.219 ; gain = 5.914
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 12f57a58d
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:28 . Memory (MB): peak = 1747.168 ; gain = 30.863
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.232 | TNS=-3.212 | WHS=-0.519 | THS=-346.586|
+
+
+Phase 2.5 Update Timing for Bus Skew
+
+Phase 2.5.1 Update Timing
+Phase 2.5.1 Update Timing | Checksum: fc5df583
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1753.090 ; gain = 36.785
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.232 | TNS=-3.187 | WHS=N/A    | THS=N/A    |
+
+Phase 2.5 Update Timing for Bus Skew | Checksum: 116154de3
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1766.555 ; gain = 50.250
+Phase 2 Router Initialization | Checksum: de7acb88
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 1766.555 ; gain = 50.250
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: f3cb04a1
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:31 . Memory (MB): peak = 1766.555 ; gain = 50.250
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 902
+ Number of Nodes with overlaps = 56
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.007 | TNS=-31.439| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1b11fb6a0
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:46 . Memory (MB): peak = 1854.570 ; gain = 138.266
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 15
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.980 | TNS=-31.721| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 17f626613
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:48 . Memory (MB): peak = 1854.570 ; gain = 138.266
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 12
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.980 | TNS=-32.198| WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 222a3b8e1
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:49 . Memory (MB): peak = 1854.570 ; gain = 138.266
+Phase 4 Rip-up And Reroute | Checksum: 222a3b8e1
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:49 . Memory (MB): peak = 1854.570 ; gain = 138.266
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1936ddb49
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:49 . Memory (MB): peak = 1854.570 ; gain = 138.266
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.980 | TNS=-31.086| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 1164cbcd9
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:49 . Memory (MB): peak = 1854.570 ; gain = 138.266
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1164cbcd9
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:49 . Memory (MB): peak = 1854.570 ; gain = 138.266
+Phase 5 Delay and Skew Optimization | Checksum: 1164cbcd9
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:49 . Memory (MB): peak = 1854.570 ; gain = 138.266
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 13c23a855
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:50 . Memory (MB): peak = 1854.570 ; gain = 138.266
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.980 | TNS=-30.494| WHS=0.039  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: fdf3c9cf
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:50 . Memory (MB): peak = 1854.570 ; gain = 138.266
+Phase 6 Post Hold Fix | Checksum: fdf3c9cf
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:50 . Memory (MB): peak = 1854.570 ; gain = 138.266
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.72864 %
+  Global Horizontal Routing Utilization  = 2.27037 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 44.1441%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 52.2523%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 64.7059%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 72.0588%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 10f7e7ded
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:50 . Memory (MB): peak = 1854.570 ; gain = 138.266
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 10f7e7ded
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:50 . Memory (MB): peak = 1854.570 ; gain = 138.266
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 15acc6f04
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:51 . Memory (MB): peak = 1854.570 ; gain = 138.266
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.980 | TNS=-30.494| WHS=0.039  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 15acc6f04
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:51 . Memory (MB): peak = 1854.570 ; gain = 138.266
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:51 . Memory (MB): peak = 1854.570 ; gain = 138.266
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+122 Infos, 222 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:07 ; elapsed = 00:00:52 . Memory (MB): peak = 1854.570 ; gain = 138.266
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1854.570 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1854.570 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 1854.570 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/impl_1/main_control_wrapper_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file main_control_wrapper_drc_routed.rpt -pb main_control_wrapper_drc_routed.pb -rpx main_control_wrapper_drc_routed.rpx
+Command: report_drc -file main_control_wrapper_drc_routed.rpt -pb main_control_wrapper_drc_routed.pb -rpx main_control_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/impl_1/main_control_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file main_control_wrapper_methodology_drc_routed.rpt -pb main_control_wrapper_methodology_drc_routed.pb -rpx main_control_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file main_control_wrapper_methodology_drc_routed.rpt -pb main_control_wrapper_methodology_drc_routed.pb -rpx main_control_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file E:/firmware/XILINX/demo/main_control_RTOS/main_control_RTOS.runs/impl_1/main_control_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file main_control_wrapper_power_routed.rpt -pb main_control_wrapper_power_summary_routed.pb -rpx main_control_wrapper_power_routed.rpx
+Command: report_power -file main_control_wrapper_power_routed.rpt -pb main_control_wrapper_power_summary_routed.pb -rpx main_control_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+134 Infos, 223 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file main_control_wrapper_route_status.rpt -pb main_control_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file main_control_wrapper_timing_summary_routed.rpt -pb main_control_wrapper_timing_summary_routed.pb -rpx main_control_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file main_control_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file main_control_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file main_control_wrapper_bus_skew_routed.rpt -pb main_control_wrapper_bus_skew_routed.pb -rpx main_control_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 16 16:40:11 2020...

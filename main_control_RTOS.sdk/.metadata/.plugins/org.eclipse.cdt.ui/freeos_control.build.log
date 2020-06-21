@@ -1,0 +1,63 @@
+18:13:23 **** Auto Build of configuration Debug for project freeos_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_control.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_control.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freeos_control_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_control.d" -MT"src/freertos_control.o" -o "src/freertos_control.o" "../src/freertos_control.c"
+../src/freertos_control.c:131:1: error: unknown type name 'XGpioPs'; did you mean 'XGpio'?
+ XGpioPs GPIO_PTR ;
+ ^~~~~~~
+ XGpio
+../src/freertos_control.c: In function 'PsGpioSetup':
+../src/freertos_control.c:258:2: error: unknown type name 'XGpioPs_Config'; did you mean 'XGpio_Config'?
+  XGpioPs_Config *GpioCfg ;
+  ^~~~~~~~~~~~~~
+  XGpio_Config
+../src/freertos_control.c:260:12: warning: implicit declaration of function 'XGpioPs_LookupConfig'; did you mean 'XGpio_LookupConfig'? [-Wimplicit-function-declaration]
+  GpioCfg = XGpioPs_LookupConfig(MIO_0_ID) ;
+            ^~~~~~~~~~~~~~~~~~~~
+            XGpio_LookupConfig
+../src/freertos_control.c:128:18: error: 'XPAR_PS7_GPIO_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_PS7_QSPI_0_DEVICE_ID'?
+ #define MIO_0_ID XPAR_PS7_GPIO_0_DEVICE_ID
+                  ^
+../src/freertos_control.c:260:33: note: in expansion of macro 'MIO_0_ID'
+  GpioCfg = XGpioPs_LookupConfig(MIO_0_ID) ;
+                                 ^~~~~~~~
+../src/freertos_control.c:128:18: note: each undeclared identifier is reported only once for each function it appears in
+ #define MIO_0_ID XPAR_PS7_GPIO_0_DEVICE_ID
+                  ^
+../src/freertos_control.c:260:33: note: in expansion of macro 'MIO_0_ID'
+  GpioCfg = XGpioPs_LookupConfig(MIO_0_ID) ;
+                                 ^~~~~~~~
+../src/freertos_control.c:261:11: warning: implicit declaration of function 'XGpioPs_CfgInitialize'; did you mean 'XGpio_CfgInitialize'? [-Wimplicit-function-declaration]
+  Status = XGpioPs_CfgInitialize(&GPIO_PTR, GpioCfg, GpioCfg->BaseAddr) ;
+           ^~~~~~~~~~~~~~~~~~~~~
+           XGpio_CfgInitialize
+../src/freertos_control.c:261:60: error: request for member 'BaseAddr' in something not a structure or union
+  Status = XGpioPs_CfgInitialize(&GPIO_PTR, GpioCfg, GpioCfg->BaseAddr) ;
+                                                            ^~
+../src/freertos_control.c:267:2: warning: implicit declaration of function 'XGpioPs_SetDirectionPin'; did you mean 'XGpio_SetDataDirection'? [-Wimplicit-function-declaration]
+  XGpioPs_SetDirectionPin(&GPIO_PTR, 9, GPIO_OUTPUT) ;
+  ^~~~~~~~~~~~~~~~~~~~~~~
+  XGpio_SetDataDirection
+../src/freertos_control.c:269:2: warning: implicit declaration of function 'XGpioPs_SetOutputEnablePin'; did you mean 'XGpio_InterruptEnable'? [-Wimplicit-function-declaration]
+  XGpioPs_SetOutputEnablePin(&GPIO_PTR, 9, GPIO_OUTPUT) ;
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  XGpio_InterruptEnable
+../src/freertos_control.c: In function 'prvPsLedTask':
+../src/freertos_control.c:280:3: warning: implicit declaration of function 'XGpioPs_WritePin'; did you mean 'XGpio_WriteReg'? [-Wimplicit-function-declaration]
+   XGpioPs_WritePin(&GPIO_PTR, 9, PsLedVal) ;
+   ^~~~~~~~~~~~~~~~
+   XGpio_WriteReg
+../src/freertos_control.c: In function 'PlGpioSetup':
+../src/freertos_control.c:129:23: error: 'XPAR_AXI_GPIO_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_DMA_0_DEVICE_ID'?
+ #define LED_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID
+                       ^
+../src/freertos_control.c:299:39: note: in expansion of macro 'LED_DEVICE_ID'
+  Status = XGpio_Initialize(&Gpio_led, LED_DEVICE_ID) ;
+                                       ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/freertos_control.o] Error 1
+
+18:13:24 Build Finished (took 1s.249ms)
+
